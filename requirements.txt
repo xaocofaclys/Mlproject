@@ -1,0 +1,9 @@
+pandas
+numpy 
+scikit-learn
+matplotlib
+seaborn
+statsmodels
+scipy
+-e .
+# Add any other dependencies you need for your project
