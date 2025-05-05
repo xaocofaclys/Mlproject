@@ -76,3 +76,14 @@ def eval_reg_model(model, X_test, y_test):
         }
     except Exception as e:
         raise CustomException(e, sys) from e
+    
+
+def load_object(file_path):
+    """
+    This function loads the object from the specified file path using pickle.
+    """
+    try:
+        with open(file_path, 'rb') as file_obj:
+            return dill.load(file_obj)
+    except Exception as e:
+        raise CustomException(e, sys) from e

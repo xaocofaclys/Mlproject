@@ -8,6 +8,6 @@ scipy
 dill
 xgboost
 catboost
-
+flask
 # -e .
 # Add any other dependencies you need for your project
